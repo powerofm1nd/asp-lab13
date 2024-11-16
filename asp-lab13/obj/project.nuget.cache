@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QEGojeBlncw=",
+  "dgSpecHash": "H0S4rGN0XUs=",
   "success": true,
   "projectFilePath": "E:\\asp.net projects\\asp-lab13\\asp-lab13\\asp-lab13.csproj",
   "expectedPackageFiles": [
@@ -16,7 +16,7 @@
     "C:\\Users\\EugenDesktop\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\EugenDesktop\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\EugenDesktop\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
-    "C:\\Users\\EugenDesktop\\.nuget\\packages\\serilog\\4.1.1-dev-02318\\serilog.4.1.1-dev-02318.nupkg.sha512",
+    "C:\\Users\\EugenDesktop\\.nuget\\packages\\serilog\\3.1.1\\serilog.3.1.1.nupkg.sha512",
     "C:\\Users\\EugenDesktop\\.nuget\\packages\\serilog.aspnetcore\\8.0.3\\serilog.aspnetcore.8.0.3.nupkg.sha512",
     "C:\\Users\\EugenDesktop\\.nuget\\packages\\serilog.extensions.hosting\\8.0.0\\serilog.extensions.hosting.8.0.0.nupkg.sha512",
     "C:\\Users\\EugenDesktop\\.nuget\\packages\\serilog.extensions.logging\\8.0.0\\serilog.extensions.logging.8.0.0.nupkg.sha512",

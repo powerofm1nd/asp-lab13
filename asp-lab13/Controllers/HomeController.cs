@@ -15,18 +15,9 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        var myPoint = new {  x = 11, y = 33 };
-        
-        using var log = 
-            new LoggerConfiguration()
-                .WriteTo.Console()
-                .CreateLogger();
-        
-        log.Information("Msg from log1 {@myPoint}", myPoint);
-    
+        _logger.LogInformation("Hello World!");
         return View();
     }
-
 
     public IActionResult Privacy()
     {
