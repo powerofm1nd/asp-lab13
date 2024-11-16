@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\asp-lab13.props" />
+</Project>
