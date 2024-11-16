@@ -13,22 +13,28 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    public IActionResult Index(int a, int b)
-    {
-        using var log = new LoggerConfiguration()
-            .WriteTo.Console()
-            .WriteTo.File("logs/log.txt", rollingInterval: RollingInterval.Day)
-            .CreateLogger();
-
-        try 
-        {
-            ViewData["Result"] = a / b;
-            log.Information(ViewData["Result"].ToString());
-        }
-        catch (Exception ex) 
-        {
-            log.Error(ex.Message);
-        }
+    public IActionResult Index(){
+        using var log1 = 
+            new LoggerConfiguration()
+                .MinimumLevel.Information()
+                .WriteTo.Console()
+                .CreateLogger();
+        log1.Debug("Msg from log1");
+        log1.Information("Msg from log1");
+        log1.Error("Msg from log1");
+        log1.Warning("Msg from log1");
+        log1.Fatal("Msg from log1");
+        
+        using var log2 = 
+            new LoggerConfiguration()
+                .MinimumLevel.Warning()
+                .WriteTo.Console()
+                .CreateLogger();
+        log2.Debug("Msg from log2");
+        log2.Information("Msg from log2");
+        log2.Error("Msg from log2");
+        log2.Warning("Msg from log2");
+        log2.Fatal("Msg from log2");
     
         return View();
     }
