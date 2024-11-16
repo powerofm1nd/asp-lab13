@@ -13,28 +13,16 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    public IActionResult Index(){
-        using var log1 = 
-            new LoggerConfiguration()
-                .MinimumLevel.Information()
-                .WriteTo.Console()
-                .CreateLogger();
-        log1.Debug("Msg from log1");
-        log1.Information("Msg from log1");
-        log1.Error("Msg from log1");
-        log1.Warning("Msg from log1");
-        log1.Fatal("Msg from log1");
+    public IActionResult Index()
+    {
+        var myPoint = new {  x = 11, y = 33 };
         
-        using var log2 = 
+        using var log = 
             new LoggerConfiguration()
-                .MinimumLevel.Warning()
                 .WriteTo.Console()
                 .CreateLogger();
-        log2.Debug("Msg from log2");
-        log2.Information("Msg from log2");
-        log2.Error("Msg from log2");
-        log2.Warning("Msg from log2");
-        log2.Fatal("Msg from log2");
+        
+        log.Information("Msg from log1 {@myPoint}", myPoint);
     
         return View();
     }

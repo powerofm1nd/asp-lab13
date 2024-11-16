@@ -40,3 +40,4 @@ E:\asp.net projects\asp-lab13\asp-lab13\obj\Debug\net8.0\refint\asp-lab13.dll
 E:\asp.net projects\asp-lab13\asp-lab13\obj\Debug\net8.0\asp-lab13.pdb
 E:\asp.net projects\asp-lab13\asp-lab13\obj\Debug\net8.0\asp-lab13.genruntimeconfig.cache
 E:\asp.net projects\asp-lab13\asp-lab13\obj\Debug\net8.0\ref\asp-lab13.dll
+E:\asp.net projects\asp-lab13\asp-lab13\obj\Debug\net8.0\asp-lab13.sourcelink.json
